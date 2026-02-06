@@ -1,0 +1,16 @@
+{
+  "name": "Heatsink Copilot",
+  "short_name": "Heatsink",
+  "description": "Offline-capable heatsink design tool",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1976d2",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
