@@ -23,6 +23,14 @@ npm run test:e2e
 npm test
 ```
 
+### E2E dependencies
+
+Playwright is not installed by default in this repository. Install it explicitly before running `npm run test:e2e`:
+
+```bash
+npm install -D @playwright/test
+```
+
 ## Offline notes
 
 The first load requires a network connection to cache the app shell. After that, the app works offline via Workbox precaching in the custom service worker.

@@ -17,7 +17,6 @@
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.45.0",
     "@quasar/app-vite": "^1.7.0",
     "@types/node": "^20.11.0",
     "typescript": "^5.4.0",
