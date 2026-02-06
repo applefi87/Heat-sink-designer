@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "quasar dev",
     "build": "quasar build",
+    "test": "vitest run",
     "test:unit": "vitest run",
     "test:e2e": "playwright test"
   },
