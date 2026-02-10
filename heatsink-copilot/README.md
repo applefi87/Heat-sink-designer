@@ -31,6 +31,10 @@ Playwright is not installed by default in this repository. Install it explicitly
 npm install -D @playwright/test
 ```
 
+## Troubleshooting installs
+
+If `npm install` fails with a `403 Forbidden` fetching `@quasar/app-vite` (or similar), that indicates a registry or network policy restriction in the environment rather than an issue in the project code. In that case, use an allowed registry or install from a network with access. 
+
 ## Offline notes
 
 The first load requires a network connection to cache the app shell. After that, the app works offline via Workbox precaching in the custom service worker.
