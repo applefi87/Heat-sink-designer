@@ -2,6 +2,9 @@
   "name": "heatsink-copilot",
   "version": "1.0.0",
   "description": "Offline-capable heatsink design PWA",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "dev": "quasar dev",
     "build": "quasar build",

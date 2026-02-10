@@ -9,6 +9,10 @@ npm install
 npm run dev
 ```
 
+## Node.js version
+
+Use Node.js 18+ (LTS recommended) to match Quasar + Vite + Vitest requirements.
+
 ## Build
 
 ```bash
